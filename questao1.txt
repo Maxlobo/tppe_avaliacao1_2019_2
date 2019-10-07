@@ -1,0 +1,11 @@
+A) Interfaces públicas são públicas pois não estão disponíveis apenas no prijeto interno. Já interface publicada a uma interface de classe usada fora da base de código em que está definida sendo assim arriscado a sua fatoração.
+Caso a interface não estivesse sido publicada você poderia alterá-la e atualizar o código de chamada, pois está tudo dentro de uma única base de código. 
+
+
+B) Cirurgia com rifle: É o oposto da divergente ao realizar uma mudança várias classes devem sofrer modificações. É difícil de encontrar todos os lugares afetados, e fácil de esquecer alguma modificação. 
+   Mudanças Divergentes: Idealmente mudanças em uma classe devem ser realizadas de modo pontual.
+
+C) É falso. No momento em que um código pode perder desempenho na tentativa de ser mais fácil de ser entendido.
+
+
+D) A maneira mais efetiva de saber se a refatoração foi bem sucedida, é possuir uma boa suit de testes que procure prever o máximo de situações possíveis dentro do código. Caso obtenha sucesso em todos eles, a chance da refatoração ter sido também um sucesso é muito alta.
